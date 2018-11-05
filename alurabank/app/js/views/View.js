@@ -24,7 +24,7 @@ System.register(["../helpers/decorators/index"], function (exports_1, context_1)
                     let template = this.template(model);
                     if (this._escapar)
                         template = template.replace(/<script>[\s\S]*?<\/script>/g, '');
-                    this._elemento.html(this.template(model));
+                    this._elemento.html(template);
                 }
             };
             __decorate([
